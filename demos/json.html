@@ -15,14 +15,9 @@
 	
 		$('#calendar').fullCalendar({
 		
-			editable: true,
+			editable: false,
 			
-			events: "json-events.php",
-			
-			eventDrop: function(event, delta) {
-				alert(event.title + ' was moved ' + delta + ' days\n' +
-					'(should probably update your database)');
-			},
+			events: "json-events.pl",
 			
 			loading: function(bool) {
 				if (bool) $('#loading').show();
