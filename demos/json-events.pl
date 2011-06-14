@@ -9,7 +9,7 @@ push @test, ({
 'title' => "Class 1",
 'start' => "2011-06-14 13:00",
 'end' => "2011-06-14 14:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -17,7 +17,7 @@ push @test, ({
 'title' => "Class 2",
 'start' => "2011-06-14 15:00",
 'end' => "2011-06-14 16:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -25,7 +25,7 @@ push @test, ({
 'title' => "Class 1",
 'start' => "2011-06-16 13:00",
 'end' => "2011-06-16 14:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -33,7 +33,7 @@ push @test, ({
 'title' => "Class 2",
 'start' => "2011-06-16 15:00",
 'end' => "2011-06-16 16:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -41,7 +41,7 @@ push @test, ({
 'title' => "Class 1",
 'start' => "2011-06-21 13:00",
 'end' => "2011-06-21 14:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -49,14 +49,14 @@ push @test, ({
 'title' => "Class 2",
 'start' => "2011-06-21 15:00",
 'end' => "2011-06-21 16:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 push @test, ({
 'id' => 225,
 'title' => "Class 1",
 'start' => "2011-06-23 13:00",
 'end' => "2011-06-23 14:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -64,14 +64,14 @@ push @test, ({
 'title' => "Class 2",
 'start' => "2011-06-23 15:00",
 'end' => "2011-06-23 16:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 push @test, ({
 'id' => 226,
 'title' => "Class 1",
 'start' => "2011-06-28 13:00",
 'end' => "2011-06-28 14:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -79,14 +79,14 @@ push @test, ({
 'title' => "Class 2",
 'start' => "2011-06-28 15:00",
 'end' => "2011-06-28 16:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 push @test, ({
 'id' => 227,
 'title' => "Class 1",
 'start' => "2011-06-30 13:00",
 'end' => "2011-06-30 14:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 
 push @test, ({
@@ -94,6 +94,6 @@ push @test, ({
 'title' => "Class 2",
 'start' => "2011-06-30 15:00",
 'end' => "2011-06-30 16:00",
-'allDay' => 'false',
+'allDay' => false,
 });
 print to_json(\@test);
