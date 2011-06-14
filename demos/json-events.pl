@@ -1,8 +1,9 @@
 #! /usr/bin/perl
 use JSON;
+use CGI qw/:standard/;
 my @test;
-
-
+my $q = new CGI;
+print "Content-type: text/html\r\n\r\n";
 push @test, ({
 'id' => 222,
 'title' => "Class 1",
@@ -60,15 +61,15 @@ push @test, ({
 push @test, ({
 'id' => 226,
 'title' => "Class 1",
-'start' => "2011-06-27 13:00",
-'end' => "2011-06-27 14:00",
+'start' => "2011-06-28 13:00",
+'end' => "2011-06-28 14:00",
 });
 
 push @test, ({
 'id' => 116,
 'title' => "Class 2",
-'start' => "2011-06-27 15:00",
-'end' => "2011-06-27 16:00",
+'start' => "2011-06-28 15:00",
+'end' => "2011-06-28 16:00",
 });
 push @test, ({
 'id' => 227,
